@@ -1,5 +1,4 @@
 import { formatCoordinates } from "@/shared/geo/posterBounds";
-import { APP_CREDIT_URL } from "@/core/config";
 import {
   TEXT_DIMENSION_REFERENCE_PX,
   TEXT_CITY_Y_RATIO,
