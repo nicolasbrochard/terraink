@@ -107,6 +107,8 @@ export default function PosterTextOverlay({
         </>
       )}
 
+      {/* SUPPRESSION CREDIT - 2026.10.19 - Début */}
+      {/*
       <span
         className="poster-attribution"
         style={{
@@ -120,7 +122,7 @@ export default function PosterTextOverlay({
       >
         &copy; OpenStreetMap contributors
       </span>
-
+      
       {includeCredits && (
         <span
           className="poster-credits"
@@ -136,6 +138,9 @@ export default function PosterTextOverlay({
           © {APP_CREDIT_URL}
         </span>
       )}
+      */}
+      {/* SUPPRESSION CREDIT - 2026.10.19 - Fin */}
+      
     </div>
   );
 }
