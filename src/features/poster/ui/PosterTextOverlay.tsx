@@ -6,14 +6,26 @@ import {
   TEXT_DIVIDER_Y_RATIO,
   TEXT_COUNTRY_Y_RATIO,
   TEXT_COORDS_Y_RATIO,
+  /* SUPPRESSION CREDIT - 2026.10.19 - Début */
+  /*
   TEXT_EDGE_MARGIN_RATIO,
+  */
+  /* SUPPRESSION CREDIT - 2026.10.19 - Fin */  
   CITY_FONT_BASE_PX,
   COUNTRY_FONT_BASE_PX,
   COORDS_FONT_BASE_PX,
+  /* SUPPRESSION CREDIT - 2026.10.19 - Début */
+  /*
   ATTRIBUTION_FONT_BASE_PX,
+  */
+  /* SUPPRESSION CREDIT - 2026.10.19 - Fin */
   formatCityLabel,
   computeCityFontScale,
+  /* SUPPRESSION CREDIT - 2026.10.19 - Début */
+  /*
   computeAttributionColor,
+  */
+  /* SUPPRESSION CREDIT - 2026.10.19 - Fin */
 } from "@/features/poster/domain/textLayout";
 
 interface PosterTextOverlayProps {
@@ -59,9 +71,13 @@ export default function PosterTextOverlay({
   const cityFontSize = `${toCqMin(CITY_FONT_BASE_PX) * computeCityFontScale(city)}cqmin`;
   const countryFontSize = `${toCqMin(COUNTRY_FONT_BASE_PX)}cqmin`;
   const coordsFontSize = `${toCqMin(COORDS_FONT_BASE_PX)}cqmin`;
+  /* SUPPRESSION CREDIT - 2026.10.19 - Début */
+  /*
   const attributionFontSize = `${toCqMin(ATTRIBUTION_FONT_BASE_PX)}cqmin`;
   const attributionColor = computeAttributionColor(textColor, landColor, showOverlay);
   const attributionOpacity = showOverlay ? 0.55 : 0.9;
+  */
+  /* SUPPRESSION CREDIT - 2026.10.19 - Fin */
 
   return (
     <div className="poster-text-overlay" style={{ color: textColor }}>
