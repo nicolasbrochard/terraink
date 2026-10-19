@@ -85,6 +85,8 @@ export function drawPosterText(
     ctx.globalAlpha = 1;
   }
 
+  /* SUPPRESSION CREDIT - 2026.10.19 - Début */
+  /* 
   ctx.fillStyle = attributionColor;
   ctx.globalAlpha = attributionAlpha;
   ctx.textAlign = "right";
@@ -110,4 +112,6 @@ export function drawPosterText(
     );
     ctx.globalAlpha = 1;
   }
+  */
+  /* SUPPRESSION CREDIT - 2026.10.19 - Fin */
 }
