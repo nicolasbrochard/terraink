@@ -1,5 +1,9 @@
 import { formatCoordinates } from "@/shared/geo/posterBounds";
+/* SUPPRESSION CREDIT - 2026.10.19 - Début */
+/*
 import { APP_CREDIT_URL } from "@/core/config";
+*/
+/* SUPPRESSION CREDIT - 2026.10.19 - Fin */  
 import {
   TEXT_DIMENSION_REFERENCE_PX,
   TEXT_CITY_Y_RATIO,
