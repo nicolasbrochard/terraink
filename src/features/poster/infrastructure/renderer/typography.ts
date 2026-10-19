@@ -54,7 +54,11 @@ export function drawPosterText(
     0.45,
     Math.min(width, height) / TEXT_DIMENSION_REFERENCE_PX,
   );
+  /* SUPPRESSION CREDIT - 2026.10.19 - Début */
+  /*
   const attributionFontSize = ATTRIBUTION_FONT_BASE_PX * dimScale;
+  */
+  /* SUPPRESSION CREDIT - 2026.10.19 - Fin */
 
   if (showPosterText) {
     const cityLabel = formatCityLabel(city);
