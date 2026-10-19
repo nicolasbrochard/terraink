@@ -1,6 +1,10 @@
 import { formatCoordinates } from "@/shared/geo/posterBounds";
 import type { Coordinate } from "@/shared/geo/types";
+/* SUPPRESSION CREDIT - 2026.10.19 - Début */
+/* 
 import { APP_CREDIT_URL } from "@/core/config";
+*/
+/* SUPPRESSION CREDIT - 2026.10.19 - Fin */
 import {
   TEXT_DIMENSION_REFERENCE_PX,
   TEXT_CITY_Y_RATIO,
@@ -32,9 +36,13 @@ export function drawPosterText(
   includeCredits: boolean = true,
 ): void {
   const textColor = theme.ui?.text || "#111111";
+  /* SUPPRESSION CREDIT - 2026.10.19 - Début */
+  /*
   const landColor = theme.map?.land || "#808080";
   const attributionColor = computeAttributionColor(textColor, landColor, showOverlay);
   const attributionAlpha = showOverlay ? 0.55 : 0.9;
+  */
+  /* SUPPRESSION CREDIT - 2026.10.19 - Fin */
   const titleFontFamily = fontFamily
     ? `"${fontFamily}", "Space Grotesk", sans-serif`
     : '"Space Grotesk", sans-serif';
